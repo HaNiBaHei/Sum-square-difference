@@ -6,7 +6,7 @@ int main() {
 		x = x + pow(i, 2);
 	}
 	for (j = 1; j <= 100; j++) {
-		y = y + i;
+		y = y + j;
 	}
 	num = pow(y, 2) - x;
 	printf("%d ", num);
